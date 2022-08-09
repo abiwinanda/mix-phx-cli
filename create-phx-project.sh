@@ -14,3 +14,6 @@ mix phx.new.ecto ${CHILD_PROJECT_NAME}
 # Component contains in web projects are controllers, templates, view, etc.
 cd ${PROJECT_NAME}/apps
 mix phx.new.web ${CHILD_PROJECT_NAME}
+
+# Create a JSON API project
+mix phx.new ${PROJECT_NAME} --no-html --no-assets
