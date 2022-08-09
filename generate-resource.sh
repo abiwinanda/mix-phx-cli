@@ -1,3 +1,6 @@
+# A command that will give you a good idea of which phx gen command to use.
+mix help phx.gen
+
 # Generate a new phoenix context. This command will generates a following:
 # 1. Context module.
 # 2. An ecto schema under the context folder.
